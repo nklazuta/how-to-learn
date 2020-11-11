@@ -16,6 +16,7 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   position: relative;
+  z-index: 1;
 }
 
 .logo {
@@ -34,7 +35,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width:703px;
+  width: 730px;
   height: 100%;
   line-height: 96px;
   font-size: 102px;
@@ -60,7 +61,8 @@
 }
 
 .header__link {
-  text-decoration: none #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -69,7 +71,6 @@
   right: 0;
   width: 765px;
   height: 608px;
-  z-index: 1;
 }
 
 .header__square-pic {
@@ -79,6 +80,7 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
+  z-index: -1;
 }
 
 .description{
@@ -214,7 +216,8 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  text-decoration: none #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -226,7 +229,7 @@
   padding: 90px 0;
   position: relative;
   overflow: hidden;
-  z-index: -2;
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -283,7 +286,7 @@
   height: 35px;
 }
 
-.footer_author {
+.footer__author {
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
